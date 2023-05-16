@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALARM App</title>
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <!-- Css File-->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="alarm">
+      <div class="container">
+        <div class="app">
+          <img src="./assets/images/alarm.png" alt="alarm" />
+          <div class="current-time" data-time></div>
+          <div class="select-time">
+            <select name="hour" id="hour">
+              <option value="hour" selected hidden>Hour</option>
+            </select>
+            <select name="minuate" id="minuate">
+              <option value="minuate" selected hidden>Minuate</option>
+            </select>
+            <select name="ampm" id="ampm">
+              <option value="ampm" selected hidden disabled="true">
+                AM/PM
+              </option>
+              <option value="PM">PM</option>
+              <option value="AM">AM</option>
+            </select>
+          </div>
+          <button class="btn" id="btn">Set Alarm</button>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
