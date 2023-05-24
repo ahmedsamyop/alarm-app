@@ -1,2 +1,2 @@
 # alarm-app
-Javascript simple Alarm clock app 
+Alarm Clock App creaded by Html , Css and Javascript
